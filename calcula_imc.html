@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora de IMC</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="produtos.css">
+    </head>
+
+<body>
+	<header>
+		<title class="titulo-principal">Calculadora de IMC</title>
+	</header>
+
+	<div class="informativo">
+
+		<p class="informativo-imc">IMC significa Índice de Massa Corporal e trata-se de uma medida do peso de cada pessoa, sendo uma relação entre a massa da pessoa e a sua altura ao quadrado. A partir desse cálculo é possível avaliar se a pessoa está com um peso ideal ou se está abaixo ou acima do peso.</p>  	
+
+	</div>	
+
+	<div class="calculadora">
+		<input class="campo" type="text" id="num1"; /> Insira aqui sua altura
+		<br>
+		<br>
+		<input class="campo" type="text" id="num2"; /> Insira aqui seu peso
+		<br>
+		<br>
+		<button>Gerar</button>
+	</div>	
+<script>
+	function pulaLinha (){
+		document.write("<br>");
+		document.write("<br>");
+
+} 
+
+	function texto (frase){
+		document.write(frase);
+		pulaLinha();
+
+}
+	//function calculaImc(altura, peso) {
+		
+		//return imc = peso / (altura*altura);
+		
+//}
+
+	//var alturaInformada = document.getElementById("num1").value;
+	//var pesoInformado = document.getElementById("num2").value;
+
+	//var imc = peso/(altura*altura);if(imc < 18.5) {
+	//mostra("Você está abaixo do recomendado");
+
+//}
+
+//if(imc>35){
+
+	//mostra("Você está acima do recomendado");
+	
+//}
+//if(imc >= 18.5  && imc <=35) {
+
+	//mostra("seu imc está excelente!");
+
+//}
+
+//mostra(nome + " ,seu imc é igual a: " + imc);
+
+//var button = document.querySelector("button");
+//button.onclick = gerar;
+
+</script>
